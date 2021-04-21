@@ -1,25 +1,25 @@
 " Palette: {{{
 
 let g:dracula#palette           = {}
-let g:dracula#palette.fg        = ['#F8F8F2', 253]
+let g:dracula#palette.fg        = ['#F8F8F2', 253] "
 
-let g:dracula#palette.bglighter = ['#424450', 238]
-let g:dracula#palette.bglight   = ['#343746', 237]
-let g:dracula#palette.bg        = ['#282A36', 236]
-let g:dracula#palette.bgdark    = ['#21222C', 235]
-let g:dracula#palette.bgdarker  = ['#191A21', 234]
+let g:dracula#palette.bglighter = ['#333638', 238]
+let g:dracula#palette.bglight   = ['#242628', 237]
+let g:dracula#palette.bg        = ['#1B1D1E', 236] "
+let g:dracula#palette.bgdark    = ['#141616', 235]
+let g:dracula#palette.bgdarker  = ['#000000', 234]
 
-let g:dracula#palette.comment   = ['#6272A4',  61]
-let g:dracula#palette.selection = ['#44475A', 239]
-let g:dracula#palette.subtle    = ['#424450', 238]
+let g:dracula#palette.comment   = ['#6272A4',  61] "
+let g:dracula#palette.selection = ['#44475A', 239] "
+let g:dracula#palette.subtle    = ['#333638', 238] " <- bglighter
 
-let g:dracula#palette.cyan      = ['#8BE9FD', 117]
-let g:dracula#palette.green     = ['#50FA7B',  84]
-let g:dracula#palette.orange    = ['#FFB86C', 215]
-let g:dracula#palette.pink      = ['#FF79C6', 212]
-let g:dracula#palette.purple    = ['#BD93F9', 141]
-let g:dracula#palette.red       = ['#FF5555', 203]
-let g:dracula#palette.yellow    = ['#F1FA8C', 228]
+let g:dracula#palette.cyan      = ['#50D3E7', 117] "
+let g:dracula#palette.green     = ['#A5DD2D',  84]
+let g:dracula#palette.orange    = ['#FD971F', 215]
+let g:dracula#palette.pink      = ['#F8276B', 212]
+let g:dracula#palette.purple    = ['#AE81FF', 141]
+let g:dracula#palette.red       = ['#EE3931', 203]
+let g:dracula#palette.yellow    = ['#E6DB74', 228]
 
 "
 " ANSI
