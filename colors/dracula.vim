@@ -31,25 +31,25 @@ endif
 
 " Palette: {{{2
 
-let s:fg        = g:dracula#palette.fg
+let s:fg        = "#F8F8F2"
 
-let s:bglighter = g:dracula#palette.bglighter
-let s:bglight   = g:dracula#palette.bglight
-let s:bg        = g:dracula#palette.bg
-let s:bgdark    = g:dracula#palette.bgdark
-let s:bgdarker  = g:dracula#palette.bgdarker
+let s:bglighter = "#333638"
+let s:bglight   = "#242628"
+let s:bg        = "#1B1D1E"
+let s:bgdark    = "#141616"
+let s:bgdarker  = "#000000"
 
-let s:comment   = g:dracula#palette.comment
-let s:selection = g:dracula#palette.selection
-let s:subtle    = g:dracula#palette.subtle
+let s:comment   = "#6272A4"
+let s:selection = "#44475A"
+let s:subtle    = "#333638"
 
-let s:cyan      = g:dracula#palette.cyan
-let s:green     = g:dracula#palette.green
-let s:orange    = g:dracula#palette.orange
-let s:pink      = g:dracula#palette.pink
-let s:purple    = g:dracula#palette.purple
-let s:red       = g:dracula#palette.red
-let s:yellow    = g:dracula#palette.yellow
+let s:cyan      = "#50D3E7"
+let s:green     = "#A5DD2D"
+let s:orange    = "#FD971F"
+let s:pink      = "#F8276B"
+let s:purple    = "#AE81FF"
+let s:red       = "#EE3931"
+let s:yellow    = "#E6DB74"
 
 let s:none      = ['NONE', 'NONE']
 
