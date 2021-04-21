@@ -31,25 +31,25 @@ endif
 
 " Palette: {{{2
 
-let s:fg        = "#F8F8F2"
+let s:fg        = ["#F8F8F2", 255]
 
-let s:bglighter = "#333638"
-let s:bglight   = "#242628"
-let s:bg        = "#1B1D1E"
-let s:bgdark    = "#141616"
-let s:bgdarker  = "#000000"
+let s:bglighter = ["#333638", 237]
+let s:bglight   = ["#242628", 235]
+let s:bg        = ["#1B1D1E", 234]
+let s:bgdark    = ["#141616", 233]
+let s:bgdarker  = ["#000000", 16]
 
-let s:comment   = "#6272A4"
-let s:selection = "#44475A"
-let s:subtle    = "#333638"
+let s:comment   = ["#717A7E", 243]
+let s:selection = ["#44475A", 239]
+let s:subtle    = ["#333638", 237]
 
-let s:cyan      = "#50D3E7"
-let s:green     = "#A5DD2D"
-let s:orange    = "#FD971F"
-let s:pink      = "#F8276B"
-let s:purple    = "#AE81FF"
-let s:red       = "#EE3931"
-let s:yellow    = "#E6DB74"
+let s:cyan      = ["#50D3E7", 80]
+let s:green     = ["#A5DD2D", 148]
+let s:orange    = ["#FD971F", 208]
+let s:pink      = ["#F8276B", 197]
+let s:purple    = ["#AE81FF", 141]
+let s:red       = ["#FF0000", 196]
+let s:yellow    = ["#FF7A1C", 208]
 
 let s:none      = ['NONE', 'NONE']
 
